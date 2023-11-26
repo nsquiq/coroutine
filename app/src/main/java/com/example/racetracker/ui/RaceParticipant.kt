@@ -33,7 +33,7 @@ class RaceParticipant(
         require(maxProgress > 0) { "maxProgress=$maxProgress; must be > 0" }
         require(progressIncrement > 0) { "progressIncrement=$progressIncrement; must be > 0" }
     }
-
+///
     /**
      * Indicates the race participant's current progress
      */
